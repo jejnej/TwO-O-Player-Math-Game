@@ -3,5 +3,5 @@ require './player.rb'
 require './question.rb'
 require './turn.rb'
 
-puts "========Welcome to Two-O-Player======="
+puts "======== 🏁 Welcome to Two-O-Player 🏁 ======= "
 MathGame::Game.new.play
