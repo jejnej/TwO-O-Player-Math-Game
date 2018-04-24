@@ -18,12 +18,12 @@ class Game
     while(@player1.lives !=0 && @player2.lives !=0) do
     if(@current_player == @player1)
      Turn.new(@player1)
-      puts "===Player 1 you have #{@player1.lives}/3.=="
+      puts "===#{@player1.name} you have #{@player1.lives}/3.=="
       puts "==== ✨ #{@player2.name} Your turn!!===="
       @current_player = @player2
       else
         Turn.new(@player2)
-        puts "==Player 2 you have #{@player2.lives}/3==="
+        puts "== #{@player1.name} you have #{@player2.lives}/3==="
         puts "==== ✨ #{@player1.name} Your turn!!===="
         @current_player = @player1
       end
